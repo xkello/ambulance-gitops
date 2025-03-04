@@ -1,0 +1,11 @@
+apiVersion: polyfea.github.io/v1alpha1
+kind: WebComponent
+metadata:
+  name: cv3-ambulance-ufe-content
+spec:
+  microFrontend: cv3-ambulance-ufe
+  element: cv3-ambulance-wl-list
+  displayRules:
+    - allOf:
+        - context-name: main-content
+        - path: "^(\\.?/)?cv3-ambulance-wl(/.*)?$"
