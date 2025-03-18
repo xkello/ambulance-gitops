@@ -9,3 +9,6 @@ labels:
 
 resources:
   - ../../../apps/cv3-ambulance-ufe
+
+components:
+  - ../../../components/version-developers
