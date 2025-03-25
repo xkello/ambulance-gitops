@@ -7,9 +7,9 @@ spec:
   element: xkello-ambulance-wl-app
   attributes:
     - name: api-base
-    - value: http://localhost:5000/api
+      value: http://localhost:5001/api
     - name: ambulance-id
-    - value: bobulova
+      value: bobulova
     - name: base-path
       value: /xkello-ambulance-wl/
   displayRules:
