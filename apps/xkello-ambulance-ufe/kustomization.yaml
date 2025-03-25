@@ -10,4 +10,4 @@ resources:
 
 labels:
   - pairs:
-      app.kubernetes.io/component: cv3-ambulance-ufe
+      app.kubernetes.io/component: xkello-ambulance-ufe

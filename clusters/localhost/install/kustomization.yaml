@@ -8,7 +8,7 @@ labels:
       app.kubernetes.io/part-of: wac-hospital
 
 resources:
-  - ../../../apps/cv3-ambulance-ufe
+  - ../../../apps/xkello-ambulance-ufe
 
 components:
   - ../../../components/version-developers
