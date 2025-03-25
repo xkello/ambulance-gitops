@@ -6,8 +6,12 @@ spec:
   microFrontend: xkello-ambulance-ufe
   element: xkello-ambulance-wl-app
   attributes:
-      - name: base-path
-        value: /xkello-ambulance-wl/
+    - name: api-base
+    - value: http://localhost:5000/api
+    - name: ambulance-id
+    - value: bobulova
+    - name: base-path
+      value: /xkello-ambulance-wl/
   displayRules:
     - allOf:
         - context-name: main-content
