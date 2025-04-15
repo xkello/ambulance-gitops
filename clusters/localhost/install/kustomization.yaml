@@ -9,6 +9,11 @@ labels:
 
 resources:
   - ../../../apps/xkello-ambulance-ufe
+  - ../../../apps/xkello-ambulance-webapi
+
+patches:
+  - path: patches/ambulance-webapi.service.yaml
 
 components:
   - ../../../components/version-developers
+  - https://github.com/xkello/ambulance-webapi//deployments/kustomize/components/mongodb
