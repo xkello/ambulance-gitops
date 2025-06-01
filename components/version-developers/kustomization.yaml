@@ -6,4 +6,7 @@ images:
   - newTag: main # {"$imagepolicy": "wac-hospital:ambulance-webapi:tag"}
   - name: xkello/ambulance-ufe
     newName: xkello/ambulance-ufe # {"$imagepolicy":  "wac-hospital:ambulance-ufe:name"}
-    newTag: main.20250401.1035 # {"$imagepolicy": "wac-hospital:ambulance-ufe:tag"}
+    newTag: 1.0.2 # main.20250401.1035 # {"$imagepolicy": "wac-hospital:ambulance-ufe:tag"}
+  - name: xkello/ambulance-wl-webapi
+    newName: xkello/ambulance-wl-webapi
+    newTag: 1.0.2
